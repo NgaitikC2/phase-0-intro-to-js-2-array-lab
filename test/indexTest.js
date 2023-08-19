@@ -1,7 +1,7 @@
 require ( './helpers.js' );
 
 describe('index.js', function () {
-  describe('cats', function () {
+  describe("Milo", "Otis", "Garfield", function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
       expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
     });
